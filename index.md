@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
  
- # Adventures with Madeline the cat and friends
+ _Adventures with Madeline the cat and friends_
  
  {% for post in site.posts %}
   <article>
