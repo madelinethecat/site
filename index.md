@@ -17,5 +17,8 @@ permalink: /
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
     {{ post.content }}
   </article>
+  
+{%- include footer.html -%}  
+  
 {% endfor %}
-{%- include footer.html -%}
+
