@@ -3,6 +3,15 @@ title: /
 layout: home
 permalink: /
 ---
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <div class="container">
+
+      {%- include header.html -%}
+ 
  
  <h1>ADVENTURES WITH MADELINE THE CAT AND OTHER FRIENDS</h1>
  
@@ -17,3 +26,4 @@ permalink: /
     {{ post.content }}
   </article>
 {% endfor %}
+{%- include footer.html -%}
