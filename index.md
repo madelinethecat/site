@@ -18,7 +18,5 @@ permalink: /
     {{ post.content }}
   </article>
   
-{%- include footer.html -%}  
-  
 {% endfor %}
 
