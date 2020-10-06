@@ -11,9 +11,7 @@ permalink: /
     <div class="container">
 
       {%- include header.html -%}
- 
- 
- <h1>ADVENTURES WITH MADELINE THE CAT AND OTHER FRIENDS</h1>
+
  
  {% for post in site.posts %}
   <article>
