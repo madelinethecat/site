@@ -3,7 +3,7 @@ title: /
 layout: home
 permalink: /
 ---
- 
+ # Adventures with Madeline the cat and friends
  
  {% for post in site.posts %}
   <article>
