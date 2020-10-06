@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
  
- **ADVENTURES WITH MADELINE THE CAT AND OTHER FRIENDS**
+ <h1>ADVENTURES WITH MADELINE THE CAT AND OTHER FRIENDS</h1>
  
  {% for post in site.posts %}
   <article>
